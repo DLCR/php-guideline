@@ -20,20 +20,20 @@
 
 #### 2.1 代码放置
 
-:x: 禁止定义函数，使用静态工具类替代
-:x: 禁止在一个文件中定义多个类
-:x: 禁止在PSR-4的目录范围内放置非类定义的php文件
-:x: 禁止在PSR-4的目录范围外放置类定义的php文件
+:x: 禁止定义函数，使用静态工具类替代  
+:x: 禁止在一个文件中定义多个类  
+:x: 禁止在PSR-4的目录范围内放置非类定义的php文件  
+:x: 禁止在PSR-4的目录范围外放置类定义的php文件  
 
 #### 2.2 php能力限制
 
-:x: 禁止使用全局变量
-:x: 必须使用单入口模式，document root下只允许`index.php`一个php文件
-:x: 禁止使用`require_once`，`require`仅允许在上述index.php中使用。用PSR-4的loader加载代码文件
-:x: 禁止使用`include_once`
-:warning: `include`仅允许在模版实现内和模版文件内使用
+:x: 禁止使用全局变量  
+:x: 必须使用单入口模式，document root下只允许`index.php`一个php文件  
+:x: 禁止使用`require_once`，`require`仅允许在上述index.php中使用。用PSR-4的loader加载代码文件  
+:x: 禁止使用`include_once`  
+:warning: `include`仅允许在模版实现内和模版文件内使用  
 
 > :question: 模版定义不清
 
-:x: 禁止使用eval
-:warning: 不要使用任何形式的按引用传值
+:x: 禁止使用eval  
+:warning: 不要使用任何形式的按引用传值  
